@@ -49,7 +49,7 @@ While building this project, I practiced:
 
 ## 🔗 Live Demo
 
-(Add Netlify/GitHub Pages link later)
+https://rishabh-09-eng.github.io/rock-paper-scissors-game/
 
 ---
 
