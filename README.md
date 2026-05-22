@@ -34,7 +34,7 @@ git clone https://github.com/Rishabh-09-eng/rock-paper-scissors-game.git
 
 ## 📸 Preview
 
-(Add screenshot here later)
+![Game Preview](preview.png)
 
 ## 📚 What I Learned
 
