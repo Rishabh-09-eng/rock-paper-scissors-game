@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #F4F1DE;
+}
+.name{
+    font-size: 3rem;
+    background-color: #143642;
+    color: #DAD2D8;
+    text-align: center;
+    padding: 0.2rem;
+    margin-bottom: 5rem;
+}
+
+.player-box,
+.bot-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.label{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #143642;
+}
+
+#playerHand, #botHand{
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.arena{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 3rem;
+}
+
+.arena img{
+    width: 18vmin;
+    height: 18vmin;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.option{
+    height:5vmin;
+    width: 10vmin;
+    color: #143642;
+    border: none;
+    background-color: #EC9A29;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 3rem;
+}
+
+.you, .computer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 2rem;
+}
+
+
+.reset{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset-btn{
+    height:5vmin;
+    width: 15vmin;
+    color: #DAD2D8;
+    border: none;
+    background-color: #A8201A;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.option:disabled{
+    pointer-events: none;
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+.result-msg{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #143642;
+    margin-bottom: 2rem;
+}
